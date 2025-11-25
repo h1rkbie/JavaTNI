@@ -23,7 +23,8 @@ public class Lab206 {
         double CUstomerPaid = Double.parseDouble(JOptionPane.showInputDialog(null, "Total price is " + df.format(TotalPrice2)
         + " baht.\nEnter the amount the customer paid:"));
 
-        JOptionPane.showMessageDialog(null, "Total Price is " + df.format(TotalPrice - (TotalPrice / discountCoupon)) + " baht\nCustomer paid " + df.format(CUstomerPaid) +" baht." +
+        JOptionPane.showMessageDialog(null, "Total price is " + df.format(TotalPrice - (TotalPrice / discountCoupon)) + " baht\nCustomer paid " + df.format(CUstomerPaid) +" baht." +
                 "\nGet change " + df.format( CUstomerPaid - TotalPrice2) + " baht.");
     }
 }
+
